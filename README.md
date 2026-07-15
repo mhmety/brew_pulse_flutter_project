@@ -28,8 +28,8 @@ Projeyi kendi yerel ortamınızda çalıştırmak için aşağıdaki adımları 
 
 1. **Projeyi Klonlayın:**
    ```bash
-   git clone [https://github.com/KULLANICI_ADIN/REPOSTORY_ADIN.git](https://github.com/KULLANICI_ADIN/REPOSTORY_ADIN.git)
-   cd REPOSTORY_ADIN
+   git clone (https://github.com/mhmety/brew_pulse_flutter_project.git)
+   cd brew_pulse_flutter_project
 
 ```
 
