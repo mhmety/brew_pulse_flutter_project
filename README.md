@@ -1,17 +1,55 @@
-# brew_pulse
+# ☕ BrewPulse — Mobil Kahve Katalog Uygulaması
 
-A new Flutter project.
+BrewPulse, modern bir üçüncü nesil kahve dükkanı konsepti için tasarlanmış ve Flutter SDK kullanılarak geliştirilmiş şık bir mobil katalog uygulamasıdır.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Proje Özellikleri ve Kazanımlar
 
-A few resources to get you started if this is your first Flutter project:
+* **Giriş Ekranı (Login Screen):** Şık bir logo alanı, e-posta ve şifre input hiyerarşisi ile kullanıcı akışının başlangıç noktası.
+* **Ana Sayfa (Home Screen):** Dinamik günün kahvesi banner'ı (tıklandığında Americano detayına yönlendirir), etkileşimli kategori seçim pilleri ve "Popüler Ürünler" listesi.
+* **Detay Sayfası (Detail Screen):** Home sayfasından gelen verilerin dinamik yüklenmesi, etkileşimli favori (kalp) butonu ve anlık görsel geri bildirim sunan S/M/L boyut seçim sistemi.
+* **Tasarım Sistemi:** Figma'da kullanılan `Fraunces` ve `DM Sans` font hiyerarşisi ile `#1A1208` (Zemin) ve `#C07A4A` (Tarçın) odaklı renk paleti uygulamaya entegre edilmiştir.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Teknik Gereksinimler ve Kullanılan Sürüm
+
+* **Framework:** Flutter SDK
+* **Programlama Dili:** Dart
+* **Kullanılan Flutter Sürümü:** `3.44.6`
+* **Temel Paketler:** `material.dart` (Gereksinimler doğrultusunda ekstra üçüncü parti paket kullanılmamış, saf Flutter mimarisiyle geliştirilmiştir.)
+
+---
+
+## ⚙️ Kurulum ve Çalıştırma Adımları
+
+Projeyi kendi yerel ortamınızda çalıştırmak için aşağıdaki adımları sırasıyla uygulayabilirsiniz:
+
+1. **Projeyi Klonlayın:**
+   ```bash
+   git clone [https://github.com/KULLANICI_ADIN/REPOSTORY_ADIN.git](https://github.com/KULLANICI_ADIN/REPOSTORY_ADIN.git)
+   cd REPOSTORY_ADIN
+
+```
+
+2. **Bağımlılıkları ve Paketleri Çekin:**
+```bash
+flutter pub get
+
+```
+
+
+3. **Gereksiz Önbelleği Temizleyin (Opsiyonel):**
+```bash
+flutter clean
+flutter pub get
+
+```
+
+
+4. **Projeyi Bir Emülatör veya Fiziksel Cihazda Çalıştırın:**
+```bash
+flutter run
+
+```
